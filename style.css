@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+.section1 header{
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bor{
+    border: 1px solid red;
+}
+.section1 header nav{
+    width: 100%;
+    /* flex-basis: 30%; */
+    display: flex;
+    justify-content: center;
+}
+.section1 header nav .nav-items{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.section1 header nav .nav-items ul{
+    display: flex;
+    list-style-type:none;
+    gap: 50px;
+}
+.section1 header nav .nav-items ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.section1 header nav .logo{
+    display: flex;
+    width: 20%;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .hero_body{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.section1 .hero_body div{
+    width: 40%;
+}
+.section1 .hero_body .hero_left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section1 .hero_body .hero_left h1{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.section1 .hero_body .hero_left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section1 .hero_body .hero_left button{
+    background-color:#3882F6;
+    border-color:#3882F6;
+    border-radius: 10px;
+    color:#F9FAF8;
+    padding:0;
+    width:100px;
+    height:30px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.section2 h1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.section2 .sec_container{
+    display: flex;
+    flex-direction: row;
+    /* width: 60%; */
+    gap: 20px;
+}
+.section2 .sec_container .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    gap: 15px;
+}
+.section2 .sec_container .box1 img{
+    width: 170px;
+    display: block;
+    border:solid blue 4px;
+    border-radius: 10px;
+    height:170px;
+}
+.section2 .sec_container .box1 p{
+    font-size: 20px;
+}
+
+.section3{
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+} 
+.section3 .quote_box{
+    /* background: #3882F6; */
+    width: 50%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.section3 .quote_box .quote{
+    font-size: 36px;
+    font-weight:400;
+    font-style:italic;
+    color:#1F2937;
+    text-align: center;
+}
+.section3 .quote_box .quoter{
+    text-align: right;
+    padding-right: 50px;
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.section4 .contact_box{
+    display: flex;
+    width: 76%;
+    background: #3882F6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+.section4 .contact_box .contact_info{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.section4 .contact_box .contact_btn{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section4 .contact_box .contact_info p{
+    color: #F9FAF8;
+    margin-left: 15%;
+}
+.section4 .contact_box .contact_info .p1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.section4 .contact_box .contact_info .p2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.section4 .contact_box .contact_btn button{
+    padding: 10px 40px;
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color:#F9FAF8;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+footer .footer_text{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 30px 0;
+    color:#F9FAF8;
+}
